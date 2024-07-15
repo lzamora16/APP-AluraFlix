@@ -1,0 +1,35 @@
+.container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    z-index: 2;
+}
+
+.categoria{
+    color: white;
+    font-size: 2rem;
+    background-color: aqua;
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.titulo{
+    margin: 0;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.parrafo{
+    color: white;
+    display: inline-block;
+    width: 90%;
+    font-size: 1rem;
+}
+
+.imagen{
+    border-radius: 20px;
+}

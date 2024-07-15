@@ -1,0 +1,47 @@
+.container-nuevo{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.label-nuevo{
+    color: white;
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+.textarea-nuevo{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    border: 1px solid #252121;
+    height: 150px;
+    resize: none;
+}
+
+.container-editar{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px 0;
+}
+
+.label-editar{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.textarea-editar{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    border: 3px solid #2271D1;
+    height: 150px;
+    resize: none;
+}

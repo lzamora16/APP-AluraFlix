@@ -1,0 +1,53 @@
+.container-nuevo{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.label-nuevo{
+    color: white;
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+.select-nuevo{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    border: 1px solid #252121;
+}
+
+.option-nuevo{
+    background: #191919;
+    font-size: 1rem
+}
+
+.container-editar{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px 0;
+}
+
+.label-editar{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.select-editar{
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    border: 3px solid #2271D1;
+}
+
+.option-editar{
+    background: #03122f;
+    font-size: 1rem
+}

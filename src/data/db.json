@@ -1,0 +1,53 @@
+{
+  "videos": [
+    {
+      "id": "4a31",
+      "titulo": "Desarrollo Front End",
+      "categoria": "Back End",
+      "imagen": "https://www.aluracursos.com/assets/img/alura-share.1720093913.png",
+      "video": "https://www.youtube.com/watch?v=O3Rg6vqUJ78",
+      "descripcion": "Ser un mejor desarrollador front end, aprende desde 0 a experto."
+    },
+    {
+      "id": "6201",
+      "titulo": "Mejoras en la Innovación Empresarial",
+      "categoria": "Innovación y Gestión",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrVIakhm8g_cItI4bkz1RyHVmOjiotoNfRZQ&s",
+      "video": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrVIakhm8g_cItI4bkz1RyHVmOjiotoNfRZQ&s",
+      "descripcion": "Mejorar en la innovación empresarial"
+    },
+    {
+      "id": "",
+      "titulo": "Desarrollo con Spring Bot",
+      "categoria": "Back End",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrVIakhm8g_cItI4bkz1RyHVmOjiotoNfRZQ&s",
+      "video": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrVIakhm8g_cItI4bkz1RyHVmOjiotoNfRZQ&s",
+      "descripcion": "Aprende Spring Bot hasta ser un profesional"
+    },
+    {
+      "id": "2bb1",
+      "titulo": "Front End Developer Alura",
+      "categoria": "Front End",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrVIakhm8g_cItI4bkz1RyHVmOjiotoNfRZQ&s",
+      "video": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrVIakhm8g_cItI4bkz1RyHVmOjiotoNfRZQ&s",
+      "descripcion": "Siendo un mejor desarrollador Front Developer"
+    }
+  ],
+  "categorias": [
+    {
+      "id": "1",
+      "categoria": "Front End",
+      "colorPrincipal": "#6BD1FF"
+    },
+    {
+      "id": "2",
+      "categoria": "Back End",
+      "colorPrincipal": "#00C86F"
+    },
+    {
+      "id": "3",
+      "categoria": "Innovación y Gestión",
+      "colorPrincipal": "#FFBA05"
+    }
+  ]
+}

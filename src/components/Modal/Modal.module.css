@@ -1,0 +1,44 @@
+.modalOverlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.modalContent{
+    max-width: 50%;
+    width: 100%;
+    z-index: 1001;
+    position: relative;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+/* Estilos para la barra de desplazamiento */
+.modalContent::-webkit-scrollbar {
+    width: 5px; /* Ancho de la barra de desplazamiento */
+    margin-right: 10px;
+}
+
+.modalContent::-webkit-scrollbar-track {
+    background: #0c305c; /* Color de fondo del track */
+    border-radius: 10px; /* Radio de borde del track */
+}
+
+.modalContent::-webkit-scrollbar-thumb {
+    background: #2271d1; /* Color del thumb */
+    border-radius: 10px; /* Radio de borde del thumb */
+    border: 2px solid transparent;
+    box-sizing: border-box;
+}
+
+.modalContent::-webkit-scrollbar-thumb:hover {
+    background: #2271d1; /* Color del thumb al pasar el mouse */
+}

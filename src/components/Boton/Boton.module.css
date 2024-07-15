@@ -1,0 +1,16 @@
+.boton{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 1rem;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.boton:hover{
+    background-color: black;
+    border: 3px solid #2271d1;
+    color: white;
+    box-shadow: inset 3px 3px 5px #2271d1;
+}
