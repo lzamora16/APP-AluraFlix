@@ -10,7 +10,8 @@ const Input = ({label, placeholder, tipo='text', clase, value, onChange}) => {
             placeholder={placeholder} 
             type={tipo} 
             value={value}
-            onChange={onChange}    
+            onChange={onChange}   
+            required 
         />
     </div>
   )

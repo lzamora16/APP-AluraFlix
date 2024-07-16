@@ -27,9 +27,34 @@
     color: white;
     display: inline-block;
     width: 90%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .imagen{
     border-radius: 20px;
+}
+
+@media only screen and (max-width: 835px){
+    .parrafo{
+        font-size: 1rem;
+    }
+
+    .imagen{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 416px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .parrafo{
+        font-size: 1rem;
+    }
+
+    .imagen{
+        width: 350px;
+    }
 }

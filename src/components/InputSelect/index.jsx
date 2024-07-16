@@ -9,7 +9,7 @@ const InputSelect = ({label, value, clase, onChange}) => {
   return (
     <div className={`${styles[`container-${clase}`]}`}>
         <label className={`${styles[`label-${clase}`]}`}>{label}: </label>
-        <select className={`${styles[`select-${clase}`]}`} value={value} onChange={onChange} >
+        <select className={`${styles[`select-${clase}`]}`} value={value} onChange={onChange} required>
             <option className={`${styles[`option-${clase}`]}`} value="" disabled hidden>Seleccionar categoría</option>
             {
                 categorias.map(({categoria, id}) => {

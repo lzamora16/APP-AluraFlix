@@ -45,3 +45,9 @@
     height: 150px;
     resize: none;
 }
+
+@media only screen and (max-width: 416px){
+    .container-nuevo{
+        width: 100%;
+    }
+}

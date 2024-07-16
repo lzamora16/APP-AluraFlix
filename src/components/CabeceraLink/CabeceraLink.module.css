@@ -18,3 +18,11 @@
     color: #2271d1;
     box-shadow: inset 3px 3px 5px #2271d1;
 }
+
+@media only screen and (max-width: 416px){
+    .link{
+        width: 213px;
+        font-weight: 400;
+        padding: 0.5rem;
+    }
+}

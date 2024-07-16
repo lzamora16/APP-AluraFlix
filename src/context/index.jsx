@@ -17,7 +17,7 @@ export const FormularioProvider = ({children}) =>{
     const [abrirModal, setAbrirModal] = useState(false);
 
     useEffect(() => {
-      fetch("https://alura-flix-api-neon.vercel.app/categorias")
+      fetch("https://api-aluraflix-fake-render.onrender.com/categorias")
       .then((response) => response.json())
       .then((data) => {
         setCategorias(data)
@@ -25,7 +25,7 @@ export const FormularioProvider = ({children}) =>{
     }, [])
 
     useEffect(() => {
-      fetch("https://alura-flix-api-neon.vercel.app/videos")
+      fetch("https://api-aluraflix-fake-render.onrender.com/videos")
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
@@ -38,7 +38,7 @@ export const FormularioProvider = ({children}) =>{
         e.preventDefault();
     
         try{
-          const response = await fetch('https://alura-flix-api-neon.vercel.app/videos',{
+          const response = await fetch('https://api-aluraflix-fake-render.onrender.com/videos',{
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -65,10 +65,8 @@ export const FormularioProvider = ({children}) =>{
 
     const eliminarRegistro = async(id) =>{
 
-        console.log(`https://alura-flix-api-neon.vercel.app/videos/${id}`);
-
         try {
-          const response = await fetch(`https://alura-flix-api-neon.vercel.app/videos/${id}`, {
+          const response = await fetch(`https://api-aluraflix-fake-render.onrender.com/videos/${id}`, {
             method: 'DELETE',
           });
 
@@ -108,7 +106,7 @@ export const FormularioProvider = ({children}) =>{
       e.preventDefault();
 
       try {
-        const response = await fetch(`https://alura-flix-api-neon.vercel.app/videos/${formulario.id}`, {
+        const response = await fetch(`https://api-aluraflix-fake-render.onrender.com/videos/${formulario.id}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',

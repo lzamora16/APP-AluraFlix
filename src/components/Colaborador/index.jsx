@@ -18,6 +18,10 @@ const Colaborador = ({datos, color}) => {
         <div className={styles.encabezado}>
             <img src={datos.imagen} alt={datos.titulo} />
         </div>
+        <div className={styles.info}>
+            <h5>{datos.titulo}</h5>
+            <p>{datos.descripcion}</p>
+        </div>
         <div className={styles.botones}>
             <div className={styles.borrar} onClick={()=> eliminarRegistro(datos.id)}>
                 <img src={borrar} alt="Borrar" />
